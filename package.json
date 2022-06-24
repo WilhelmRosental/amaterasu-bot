@@ -1,0 +1,29 @@
+{
+  "name": "amaterasu-bot",
+  "version": "0.0.1",
+  "description": "Bot du serveur Stardust",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "WilhelmRosental",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wilhelm-Rsntl/Amaterasu-Bot/issues"
+  },
+  "homepage": "https://github.com/Wilhelm-Rsntl/Amaterasu-Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "ansi-colors": "^4.1.1",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.5",
+    "table": "^6.8.0"
+  }
+}
