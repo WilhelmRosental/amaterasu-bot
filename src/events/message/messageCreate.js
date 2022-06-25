@@ -2,7 +2,7 @@ require('../../utils/commands/commandHandler');
 const PREFIX = process.env.PREFIX;
 
 module.exports = async(client, message) => {
-    //si l'auteur du message est le bot
+    //si l'auteur du message est un bot
     if(message.author.bot) return;
 
     //si on détecte le préfix => commande

@@ -4,6 +4,7 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
+	new SlashCommandBuilder().setName('avatar').setDescription('Affiche l\'avatar de l\'utilisateur!'),
 	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
 	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
 	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
